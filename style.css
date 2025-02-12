@@ -208,5 +208,55 @@ body.adblock-active #overlay {
     pointer-events: auto; /* Tapi pop-up tetap bisa diklik */
 }
 
+.banner {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background: #4CAF50;
+    border-radius: 5px;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.download-btn {
+    background-color: #ff4500;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.download-btn:hover {
+    background-color: #d73c00;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+
 
 
