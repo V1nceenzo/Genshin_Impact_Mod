@@ -325,58 +325,55 @@ body.dark-mode #darkModeToggle:hover {
 
 
 /* Container Tabel */
+/* Style untuk table container */
+.table-container {
+    width: 80%; /* Lebar tabel */
+    margin: 20px auto; /* Tengahin */
+    overflow-x: auto; /* Scroll kalau terlalu lebar */
+}
 
-
-/* Styling Tabel */
+/* Style tabel */
 table {
-    width: 100%;
+    width: 100%; /* Biar tabel penuh di dalam container */
     border-collapse: collapse;
-    margin-top: 20px;
-}
-
-/* Header Tabel */
-th {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px;
-    text-align: left;
-}
-
-/* Isi Tabel */
-/* Styling Tabel */
-/* Biar teks sejajar */
-th, td {
-    text-align: center; /* Pusatkan teks */
-    vertical-align: middle; /* Sejajarkan secara vertikal */
-    padding: 12px;
-    border-bottom: 1px solid #ddd;
-}
-
-/* Pastikan lebar kolom konsisten */
-th:nth-child(1), td:nth-child(1) { width: 40%; } /* Kolom Nama Mod */
-th:nth-child(2), td:nth-child(2) { width: 30%; } /* Kolom Installation Guide */
-th:nth-child(3), td:nth-child(3) { width: 30%; } /* Kolom Download */
-
-/* Styling Header */
-th {
-    background-color: #4CAF50;
-    color: white;
-    font-weight: bold;
-}
-
-/* Styling untuk Dark Mode */
-body.dark-mode table {
-    background-color: #333;
-    color: white;
-}
-
-body.dark-mode th {
     background-color: #222;
 }
 
-body.dark-mode td a {
-    color: #FFD700;
+/* Style Header */
+th {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-weight: bold;
 }
+
+/* Style isi tabel */
+td {
+    text-align: center;
+    padding: 12px;
+    color: white;
+}
+
+/* Style untuk garis antar baris */
+tr {
+    border-bottom: 1px solid #555;
+}
+
+/* Style untuk link */
+td a {
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Biar teks tetap sejajar */
+th, td {
+    width: 33.33%; /* Bagi rata semua kolom */
+    text-align: center; /* Tengahin teks */
+    vertical-align: middle;
+}
+
 
 
 
