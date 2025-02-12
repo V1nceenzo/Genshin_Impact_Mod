@@ -167,6 +167,20 @@ div a:hover {
     z-index: 1000;
     text-align: center;
 }
+
+
+.adblock-warning {
+    color: black; /* Warna teks saat light mode */
+}
+
+.dark-mode .adblock-warning {
+    color: white; /* Warna teks saat dark mode */
+}
+
+
+
+
+
 #overlay {
     display: none;
     position: fixed;
