@@ -225,12 +225,6 @@ body.adblock-active #overlay {
     pointer-events: auto; /* Tapi pop-up tetap bisa diklik */
 }
 
-.banner {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
 
 nav ul {
     list-style: none;
