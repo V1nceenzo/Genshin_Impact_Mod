@@ -62,17 +62,6 @@ a:hover {
 }
 
 /* Teks Subscribe */
-#subscribeText {
-    font-size: 24px;
-    color: #333; /* Warna default */
-    text-align: center;
-    margin-top: 40px;
-}
-
-/* Saat dark mode aktif, ubah warna teks */
-body.dark-mode #subscribeText {
-    color: white; /* Ubah jadi putih saat dark mode */
-}
 
 
 /* Tombol Subscribe */
