@@ -169,13 +169,15 @@ div a:hover {
 }
 
 
-.adblock-warning {
+#adblock-warning {
     color: black; /* Warna teks saat light mode */
 }
 
+.dark-mode #adblock-warning, 
 .dark-mode .adblock-warning {
-    color: white; /* Warna teks saat dark mode */
+    color: white !important;
 }
+
 
 
 
