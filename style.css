@@ -71,7 +71,7 @@ a:hover {
 
 /* Saat dark mode aktif, ubah warna teks */
 body.dark-mode #subscribeText {
-    color: white;
+    color: white; /* Ubah jadi putih saat dark mode */
 }
 
 
