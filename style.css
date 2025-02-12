@@ -325,12 +325,7 @@ body.dark-mode #darkModeToggle:hover {
 
 
 /* Container Tabel */
-.table-container {
-    width: 90%;
-    max-width: 800px;
-    margin: 20px auto;
-    overflow-x: auto;
-}
+
 
 /* Styling Tabel */
 table {
