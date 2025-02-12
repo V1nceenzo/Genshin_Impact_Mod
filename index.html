@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wuwa Mods</title>
+    <title>Genshin Impact Mods</title>
 
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="./ad_bottom.js" type="text/javascript"></script>
@@ -96,13 +96,13 @@
     <script src="./ad_bottom.js" type="text/javascript"></script>
 
     <div id="adblock-popup">
-        <p>AdBlock terdeteksi! Mohon matikan AdBlock untuk mendukung situs ini.</p>
-        <button class="btn-primary" onclick="copyAndShowInstructions()">Matikan AdBlock</button>
-        <button class="btn-secondary" onclick="reloadPage()">Saya sudah mematikan</button>
+        <p>AdBlock detected! Please turn off AdBlock to support this site.</p>
+        <button class="btn-primary" onclick="copyAndShowInstructions()">Turn off AdBlock</button>
+        <button class="btn-secondary" onclick="reloadPage()">I've turned it off</button>
         
         <p id="disable-adblock-link" style="display: none; margin-top: 10px;">
             Klik kanan di sini → 
-            <a href="chrome://extensions/" onclick="alert('Silakan buka secara manual dengan copy-paste ke browser.'); return false;">
+            <a href="chrome://extensions/" onclick="alert('Please open it manually by copy-pasting it into your browser.'); return false;">
                 Buka Pengaturan Ekstensi
             </a>
         </p>
@@ -149,14 +149,14 @@
             
             navigator.clipboard.writeText(extensionURL).then(function() {
                 alert(
-                    "Cara Mematikan AdBlock:\n" +
-                    "1. Buka tab baru di browser.\n" +
-                    "2. Paste (CTRL + V) di address bar dan tekan ENTER.\n" +
-                    "3. Cari ekstensi AdBlock dan nonaktifkan untuk situs ini.\n\n" +
-                    "Tautan ke pengaturan ekstensi sudah disalin ke clipboard!"
+                    "How to Turn Off AdBlock:\n" +
+                    "1. Open a new tab in the browser.\n" +
+                    "2. Paste (CTRL + V) in the address bar and press ENTER.\n" +
+                    "3. Look for the AdBlock extension and disable it for this site.\n\n" +
+                    "The link to the extension settings has been copied to the clipboard!"
                 );
             }, function(err) {
-                alert("Gagal menyalin link. Silakan copy-paste manual: " + extensionURL);
+                alert("Failed to copy link. Please copy-paste manually: " + extensionURL);
             });
         }
 
