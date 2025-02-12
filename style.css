@@ -348,9 +348,25 @@ th {
 }
 
 /* Isi Tabel */
-td {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
+/* Styling Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: left; /* Biar teks rata kiri */
+}
+
+/* Header & Isi Tabel */
+th, td {
+    padding: 12px; /* Biar lebih rapi */
+    border-bottom: 1px solid #ddd; /* Garis pemisah antar baris */
+}
+
+/* Header (th) lebih bold */
+th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
 }
 
 /* Link dalam Tabel */
