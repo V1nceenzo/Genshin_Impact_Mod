@@ -225,33 +225,34 @@ body.adblock-active #overlay {
     pointer-events: auto; /* Tapi pop-up tetap bisa diklik */
 }
 
+/* Navbar Styling */
 nav {
     display: flex;
-    justify-content: space-between; /* Biar tombol toggle ke kanan */
+    justify-content: space-between; /* Menu di kiri, toggle di kanan */
     align-items: center;
-    background: #4CAF50; /* Warna navbar */
+    background: #4CAF50; /* Tetap hijau */
     padding: 10px 20px;
     border-radius: 5px;
 }
 
-
+/* Navbar List */
 nav ul {
     list-style: none;
     display: flex;
     align-items: center;
     padding: 0;
     margin: 0;
-    width: 100%;
 }
+
 nav ul li {
     margin: 0 15px;
 }
+
 nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
-
 .toggle-container {
     margin-left: auto; /* Biar tombol di pojok kanan */
 }
@@ -283,10 +284,10 @@ body.dark-mode nav {
 }
 
 #darkModeToggle {
-    background-color: transparent;
-    border: 2px solid white;
-    color: white;
-    font-size: 16px;
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: 14px;
     padding: 8px 12px;
     cursor: pointer;
     border-radius: 5px;
@@ -294,18 +295,20 @@ body.dark-mode nav {
 }
 
 
+/* Saat hover */
 #darkModeToggle:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: #ddd;
 }
 
-
+/* Saat dark mode aktif */
 body.dark-mode #darkModeToggle {
-    border-color: #ddd;
-    color: #ddd;
+    background-color: black;
+    color: white;
 }
 
+/* Saat hover di dark mode */
 body.dark-mode #darkModeToggle:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: #555;
 }
 
 
