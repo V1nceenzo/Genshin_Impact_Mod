@@ -265,8 +265,18 @@ nav ul li a {
 
 
 
+
+body.dark-mode {
+    background-color: #222; /* Warna gelap */
+    color: white;
+}
+
+body.dark-mode nav {
+    background-color: #555; /* Warna navbar lebih gelap di dark mode */
+}
+
 #darkModeToggle {
-    background-color: #333; /* Warna default gelap */
+    background-color: #333; /* Warna gelap agar kontras */
     color: white;
     padding: 10px 20px;
     border: none;
@@ -275,8 +285,9 @@ nav ul li a {
     position: fixed;
     top: 10px;
     right: 10px;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: background-color 0.3s ease;
 }
+
 
 #darkModeToggle:hover {
     background-color: #555; /* Efek hover lebih cerah */
@@ -290,11 +301,6 @@ body.dark-mode #darkModeToggle {
 
 body.dark-mode #darkModeToggle:hover {
     background-color: #ddd;
-}
-
-body.dark-mode {
-    background-color: #222; /* Warna gelap */
-    color: white;
 }
 
 
