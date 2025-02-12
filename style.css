@@ -314,3 +314,68 @@ body.dark-mode #darkModeToggle:hover {
 
 
 
+/* INI BUAT TAB MODS */
+/* INI BUAT TAB MODS */
+/* INI BUAT TAB MODS */
+/* INI BUAT TAB MODS */
+/* INI BUAT TAB MODS */
+/* INI BUAT TAB MODS */
+/* INI BUAT TAB MODS */
+
+
+
+/* Container Tabel */
+.table-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    overflow-x: auto;
+}
+
+/* Styling Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Header Tabel */
+th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Isi Tabel */
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Link dalam Tabel */
+td a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+/* Dark Mode */
+body.dark-mode table {
+    background-color: #333;
+    color: white;
+}
+
+body.dark-mode th {
+    background-color: #222;
+}
+
+body.dark-mode td a {
+    color: #FFD700;
+}
+
+
