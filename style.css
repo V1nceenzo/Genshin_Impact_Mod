@@ -7,9 +7,9 @@
 
 /* Background halaman */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9; /* Warna latar belakang cerah */
-    color: #333; /* Teks berwarna abu-abu gelap */
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
     padding: 20px;
     text-align: center;
 }
@@ -264,10 +264,6 @@ nav ul li a {
 }
 
 
-body {
-    font-family: 'Poppins', sans-serif;
-}
-
 
 #darkModeToggle {
     background-color: #333; /* Warna default gelap */
@@ -294,6 +290,11 @@ body.dark-mode #darkModeToggle {
 
 body.dark-mode #darkModeToggle:hover {
     background-color: #ddd;
+}
+
+body.dark-mode {
+    background-color: #222; /* Warna gelap */
+    color: white;
 }
 
 
