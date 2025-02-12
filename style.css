@@ -344,38 +344,27 @@ th {
 
 /* Isi Tabel */
 /* Styling Tabel */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-    text-align: left; /* Biar teks rata kiri */
-}
-
-/* Header & Isi Tabel */
+/* Biar teks sejajar */
 th, td {
-    padding: 12px; /* Biar lebih rapi */
-    border-bottom: 1px solid #ddd; /* Garis pemisah antar baris */
+    text-align: center; /* Pusatkan teks */
+    vertical-align: middle; /* Sejajarkan secara vertikal */
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
 }
 
-/* Header (th) lebih bold */
+/* Pastikan lebar kolom konsisten */
+th:nth-child(1), td:nth-child(1) { width: 40%; } /* Kolom Nama Mod */
+th:nth-child(2), td:nth-child(2) { width: 30%; } /* Kolom Installation Guide */
+th:nth-child(3), td:nth-child(3) { width: 30%; } /* Kolom Download */
+
+/* Styling Header */
 th {
     background-color: #4CAF50;
     color: white;
     font-weight: bold;
 }
 
-/* Link dalam Tabel */
-td a {
-    color: #4CAF50;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-td a:hover {
-    text-decoration: underline;
-}
-
-/* Dark Mode */
+/* Styling untuk Dark Mode */
 body.dark-mode table {
     background-color: #333;
     color: white;
@@ -388,5 +377,6 @@ body.dark-mode th {
 body.dark-mode td a {
     color: #FFD700;
 }
+
 
 
