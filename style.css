@@ -64,29 +64,46 @@ a:hover {
 /* Teks Subscribe */
 #subscribeText {
     font-size: 24px;
-    color: #333;
-    text-align: center; /* Memastikan teks berada di tengah */
+    color: #333; /* Warna default */
+    text-align: center;
     margin-top: 40px;
 }
 
+/* Saat dark mode aktif, ubah warna teks */
+body.dark-mode #subscribeText {
+    color: white;
+}
+
+
 /* Tombol Subscribe */
 #subscribeButton {
-    background-color: #ff5733; /* Warna tombol subscribe (oranye) */
+    background-color: #ff5733; /* Warna oranye */
     color: white;
     padding: 12px 24px;
     border: none;
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
     display: block;
-    margin: 20px auto; /* Memusatkan tombol */
+    margin: 20px auto;
 }
 
-/* Tombol Subscribe: Hover effect */
+/* Hover effect */
 #subscribeButton:hover {
-    background-color: #ff4527; /* Warna saat hover */
+    background-color: #ff4527;
 }
+
+/* Dark mode: Tombol subscribe tetap terlihat */
+body.dark-mode #subscribeButton {
+    background-color: #ff5733;
+    color: white;
+}
+
+body.dark-mode #subscribeButton:hover {
+    background-color: #ff4527;
+}
+
 
 /* Gambar meme yang ditambahkan */
 img {
@@ -253,7 +270,7 @@ body {
 
 
 #darkModeToggle {
-    background-color: #333; /* Warna gelap agar kontras */
+    background-color: #333; /* Warna default gelap */
     color: white;
     padding: 10px 20px;
     border: none;
@@ -262,22 +279,13 @@ body {
     position: fixed;
     top: 10px;
     right: 10px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 #darkModeToggle:hover {
-    background-color: #555; /* Lebih cerah saat hover */
+    background-color: #555; /* Efek hover lebih cerah */
 }
 
-
-body.dark-mode {
-    background-color: #222;
-    color: white;
-}
-
-body.dark-mode nav {
-    background-color: #555; /* Warna navbar lebih gelap di dark mode */
-}
 
 body.dark-mode #darkModeToggle {
     background-color: white;
@@ -287,7 +295,6 @@ body.dark-mode #darkModeToggle {
 body.dark-mode #darkModeToggle:hover {
     background-color: #ddd;
 }
-
 
 
 
