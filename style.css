@@ -280,8 +280,9 @@ body.dark-mode {
 }
 
 body.dark-mode nav {
-    background-color: #333;
+    background-color: #4CAF50; /* Tetap hijau */
 }
+
 
 #darkModeToggle {
     background-color: white;
