@@ -173,10 +173,6 @@ div a:hover {
     color: black; /* Warna teks saat light mode */
 }
 
-.dark-mode #adblock-warning, 
-.dark-mode .adblock-warning {
-    color: white !important;
-}
 
 
 
